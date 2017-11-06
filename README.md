@@ -13,4 +13,8 @@ Execute agora "pip install -r requirements.txt"
 Após a instalação das dependencias, execute "python run.py"
 O terminal iŕa pedir pelo valor de t
 
+
 Após isso as janelas irão abrir, clique com o botão esquerdo do mouse para criar um ponto, direito para remover. f5 caso queira limpar a tela, clique e arraste para mover os pontos e ESC para sair.
+
+OBS: Os comandos podem variar para o Windows
+
