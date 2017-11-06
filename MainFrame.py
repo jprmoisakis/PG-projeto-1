@@ -26,6 +26,7 @@ def main():
     glutMouseFunc(mouseClick)
     glutSpecialUpFunc(resetScreen)
     glutKeyboardFunc(exit)
+    glutMotionFunc(move)
     glutMainLoop()
 
 def display():
@@ -119,7 +120,12 @@ def mouseClick(button, state, x, y):
             pontos.pop(0 + index)
             glutPostRedisplay()
 
-
+# movimenta os pontos
+def move(x, y):
+    global index
+    pontos[index]['x'] = x
+    pontos[index]['y'] = y
+    glutPostRedisplay()
 
 
 
